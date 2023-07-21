@@ -95,6 +95,9 @@ def main():
     else:
         try:
             filename = sys.argv[1].split('.')[0]
+            if sys.argv[1].split('.')[1] == 'html':
+                print(f"You tried opening a HTML file, please use a markdown file insted!")
+                sys.exit()
             with open(sys.argv[1], 'r') as f:
                 raw_md = f.readlines()
                 keywords = raw_md[0].strip()[4:-4].strip()
