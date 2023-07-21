@@ -152,7 +152,7 @@ input, select, textarea {
 		-webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		-ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
-		border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		/* border-bottom: dotted 1px rgba(255, 255, 255, 0.5); */
 		text-decoration: none;
 		color: inherit;
 	}
@@ -274,6 +274,19 @@ input, select, textarea {
 		font-size: 0.9rem;
 		margin: 0 0 2rem 0;
 	}
+		pre.publication {
+			background: rgba(255, 255, 255, 0.075);
+			border-radius: 4px;
+			margin: 0 0.25rem;
+			padding: 0.25rem 0.65rem;
+			font-family: 'Font Awesome 5 Free', sans-serif;
+			font: inherit;
+			white-space: pre-wrap;
+		}
+		
+		pre.publication a {
+			border-bottom: dotted 1px rgba(255, 255, 255, 0.5);
+		}
 
 		pre code {
 			display: block;
@@ -1140,9 +1153,12 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto, 256px 256px;
-			background-position: center, center;
-			background-repeat: no-repeat, repeat;
+			background-size: auto,
+ 256px 256px;
+			background-position: center,
+ center;
+			background-repeat: no-repeat,
+ repeat;
 			z-index: 2;
 		}
 
