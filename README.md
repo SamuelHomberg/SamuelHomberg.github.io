@@ -1,3 +1,3 @@
-# [SamuelHomberg](https://samuelhomberg.github.io/)
+# [Samuel Homberg](https://samuelhomberg.github.io/)
 
 Personal Website and Blog
