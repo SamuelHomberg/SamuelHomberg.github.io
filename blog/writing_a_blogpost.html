@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Writing a Blogpost</title>
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <link rel="stylesheet" href="css/template.css" />
+  <link rel='icon' href='../images/favicon.svg' type='image/x-icon'/>
+  <meta name='keywords' content='cheminformatics, computationsl drug design, machine learning, programming, blog, blog posts, samuel homberg, academia, research, Münster, pandoc'/>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<!-- cheminformatics, computationsl drug design, machine learning, programming, blog, blog posts, samuel homberg, academia, research, Münster, pandoc -->
+<div id='wrapper'>
+<!-- begin wrapper -->
+<!-- Samuel Homberg, 21.JUL.2023 -->
+<h1 id="writing-a-blogpost-like-this-in-pure-markdown">Writing a
+blogpost (like this) in pure markdown</h1>
+<p class="author-date">
+<span class="author">Author:</span> <span class="name"><a
+href="../index.html">Samuel Homberg</a></span><br> <span
+class="published">Published:</span> <span
+class="date">21.JUL.2023</span><br>
+</p>
+<h2 id="motivation">Motivation</h2>
+<p>I wanted to write a blog for when I find useful or interesting
+things, mainly when programming. Not only will I have an easy way of
+looking them up, they might also be useful to someone that stumbles upon
+this blog. <a
+href="https://www.blopig.com/blog/2023/02/creating-a-personal-website/">This
+blogpost</a> here was a great help, and the the <a
+href="https://www.blopig.com/blog/">OPIG Blog</a> inspired me to get
+started with blogging.</p>
+<h2 id="pandoc">pandoc</h2>
+<p>To reduce the barrier of entry for writing a post, I wanted to be
+able to write in pure markdown. While there are multple ways to convert
+markdown to html, <code>pandoc</code> seems to be the most powerful and
+versatile. It might also be interesting to use <code>pandoc</code> to
+convert a draft of some sort to pdf via LaTeX, which <code>pandoc</code>
+is also capable of. The installation for windows is apparently not
+straightforward (I want to write on my surface), but installing pandoc
+on WSL is very easy.</p>
+<h2 id="parsing-almost-pure-markdown">parsing (almost) pure
+markdown</h2>
+<p>While it is possible to add header-info (like a favicon, keywords and
+the pagetitle) within markodown in a yaml-block, I chose to write a
+short python program, that will take the necessary keywords from a
+comment at the top and thus keep the markdown-file itself as pure as
+possible.</p>
+<h2 id="building-the-rest-of-the-website">building the rest of the
+website</h2>
+<p>Using a template from <a href="https://html5up.net/">HTML5 UP!</a>, I
+created a personal website (following the steps outlined in the <a
+href="https://www.blopig.com/blog/2023/02/creating-a-personal-website/">blog
+post</a> mentioned above). With the <code>template.md</code> file I
+adjusted the CSS from the template (adding code-highlighting, …). I then
+added a link to the blog via a page <code>blog/index.html</code>, where
+I will (have to manually) add the blog entries, as I write them. The
+complete workflow for creating a blogpost is as follows:</p>
+<h2 id="steps-to-write-a-blogpost-this-way">Steps to write a blogpost
+this way</h2>
+<ol type="1">
+<li>Copy the <code>template.md</code> file.</li>
+<li>Rename it with a shorttitle. (This will be displayed in the
+browser.)</li>
+<li>Write the blogpost, add keywords and the correct date.</li>
+<li>Switching to WSL, run
+<code>python _md_to_html.py &lt;blogpost&gt;.md</code> from the
+<code>blog</code> folder.</li>
+<li>Edit the <code>blog/index.md</code> and run
+<code>python _md_to_html.py index.md</code></li>
+<li>Add/commit/push the new/changed files (from Windows, WSL sees a lot
+of files as changed).</li>
+</ol>
+<footer id='footer'>
+    <p class='copyright'>&copy; <a href='../index.html'>Homberg</a> 2023. Design: <a href='https://html5up.net'>HTML5 UP</a>.</p>
+</footer>
+<!-- end wrapper -->
+</div>
+</body>
+</html>

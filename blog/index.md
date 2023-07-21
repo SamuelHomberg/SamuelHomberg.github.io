@@ -6,4 +6,8 @@ If you have comments on anything I posted, feel free to write me a [mail](mailto
 <br>
 <br>
 
+### [Writing a blogpost in pure markdown](writing_a_blogpost.html) - [Webdesign] - 21.JUL.2023
+
+<br>
+
 ### [Blogpost template](template.html) - [Webdesign] - 21.JUL.2023
