@@ -2,7 +2,7 @@
 
 # Samuel's&nbsp;PhD&nbsp;Blog (Cheminformatics and&nbsp;more)
 
-If you have comments on anything I posted, feel free to write me a [mail](mailto:samuel.homberg@uni-muenster.de) or open a [github issue](https://github.com/samuelhomberg/samuelhomberg).
+If you have comments on anything I posted, feel free to write me a [mail](mailto:samuel.homberg@uni-muenster.de) or open a [github issue](https://github.com/samuelhomberg/samuelhomberg.github.io).
 <br>
 <br>
 
