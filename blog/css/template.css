@@ -615,3 +615,26 @@ input, select, textarea {
 			margin-bottom: 0;
 			text-transform: uppercase;
 		}
+
+/* Back Button */
+
+    #back-button-container {
+      position: fixed;
+      /* bottom: 00px; */
+      top: 12%;
+      right: 4%;
+      z-index: 999; /* Adjust this value if necessary */
+    }
+	@media screen and (max-width: 700px) {
+	#back-button-container {
+		top: 90%;}
+	}
+
+    /* Style the back button */
+    #back-button {
+      width: 40px;
+      height: 40px;
+      cursor: pointer;
+    }
+    #back-button-anchor {
+      border-bottom: transparent;}

@@ -72,6 +72,13 @@ def add_footer(html_lines: list, author: str, position: int=-4) -> list[str]:
     html_lines.insert(position, footer)
     return html_lines
 
+def insert_html_snippet(html_lines: list, snippet_filename: str, position: int) -> list[str]:
+    with open(snippet_filename, 'r') as f:
+        snippet_lines = f.readlines()
+    for i, l in enumerate(snippet_lines):
+        html_lines.insert(position, l)
+    return html_lines
+    
 def add_wrapper_start(html_lines: list[str], position: int) -> list[str]:
     html_lines.insert(position, "<!-- begin wrapper -->\n")
     html_lines.insert(position, "<div id='wrapper'>\n")
@@ -139,6 +146,11 @@ def main():
         author = 'Homberg'
     html_lines = add_footer(html_lines, author)
     # move_footnotes_up(html_lines)
+    if filename != 'index':
+        html_lines = insert_html_snippet(html_lines, 'html_snippets/back_button_to_blog.html', -2)
+    else:
+        html_lines = insert_html_snippet(html_lines, 'html_snippets/back_button_to_main.html', -2)
+
     with open(filename_html, 'w') as f:
         f.writelines(html_lines)
 
