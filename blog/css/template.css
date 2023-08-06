@@ -273,7 +273,7 @@ input, select, textarea {
 		font-family: Menlo, Monaco, Consolas, 'Lucida Console', 'Courier New', monospace;
 		font-size: 0.9rem;
 		margin: 0 0.25rem;
-		padding: 0.25rem 0.65rem;
+		padding: 0.2rem 0.3rem;
 		white-space: pre;
 	}
 
