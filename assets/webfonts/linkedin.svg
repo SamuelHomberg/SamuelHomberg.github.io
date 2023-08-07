@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 512 512"
+   version="1.1"
+   id="svg21065"
+   sodipodi:docname="linkedin.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   width="512"
+   height="512"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs21069" />
+  <sodipodi:namedview
+     id="namedview21067"
+     pagecolor="#965e5e"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="111.72881"
+     inkscape:cy="257.08475"
+     inkscape:window-width="1368"
+     inkscape:window-height="850"
+     inkscape:window-x="-6"
+     inkscape:window-y="-6"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg21065" />
+  <!--! Font Awesome Pro 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. -->
+  <path
+     d="M 363.14286,131 H 148.80134 C 138.97991,131 131,139.09152 131,149.02455 V 362.97544 C 131,372.90848 138.97991,381 148.80134,381 H 363.14286 C 372.96428,381 381,372.90848 381,362.97544 V 149.02455 C 381,139.09152 372.96428,131 363.14286,131 Z M 206.55804,345.28571 H 169.50446 V 225.97768 h 37.10938 V 345.28571 Z M 188.03125,209.68303 c -11.88616,0 -21.48438,-9.65401 -21.48438,-21.48437 0,-11.83036 9.59822,-21.48437 21.48438,-21.48437 11.83036,0 21.48437,9.65401 21.48437,21.48437 0,11.88616 -9.59821,21.48437 -21.48437,21.48437 z M 345.45312,345.28571 H 308.39955 V 287.25 c 0,-13.83929 -0.27902,-31.64063 -19.25223,-31.64063 -19.30804,0 -22.26562,15.06697 -22.26562,30.63616 v 59.04018 H 229.82812 V 225.97768 H 265.375 v 16.29464 h 0.50223 c 4.96652,-9.375 17.07589,-19.25223 35.10045,-19.25223 37.5,0 44.47544,24.72098 44.47544,56.86384 z"
+     id="path21063"
+     style="fill:#ffffff;stroke-width:1" />
+</svg>
