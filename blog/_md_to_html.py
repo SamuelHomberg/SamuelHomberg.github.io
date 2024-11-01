@@ -53,6 +53,7 @@ def find_md_h1(md: list[str]) -> int:
     assert 0, f"Didn't finde H1 heading."
 
 def find_html_h1(html_lines: list[str]) -> int:
+    # TODO: This fails if the .md heading is to long
     for i, l in enumerate(html_lines):
         if l.startswith("<h1 "):
             return i
@@ -62,7 +63,7 @@ def find_html_h1(html_lines: list[str]) -> int:
 def add_footer(html_lines: list, author: str, position: int=-4) -> list[str]:
     if author == "Homberg":
         footer = f"<footer id='footer'>\n\
-    <p class='copyright'>&copy; <a href='../index.html'>Homberg</a> 2023. Design: <a href='https://html5up.net'>HTML5 UP</a>.</p>\n\
+    <p class='copyright'>&copy; <a href='../index.html'>Homberg</a> 2024. Design: <a href='https://html5up.net'>HTML5 UP</a>.</p>\n\
 </footer>\n"
 
     else:
@@ -96,6 +97,7 @@ def main():
     # take filename as argument
     if len(sys.argv) > 2:
         print(f"Please give only the title of the .md file.\nYou supplied {sys.argv[1:]}")
+        sys.exit()
     elif len(sys.argv) < 2:
         print(f"Please give the title of the .md file.")
         sys.exit()
