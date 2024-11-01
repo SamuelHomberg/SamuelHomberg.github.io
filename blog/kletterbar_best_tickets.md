@@ -1,7 +1,7 @@
 <!-- programming, blog, blog posts, samuel homberg, research, Münster, kletterbar, climbing, data science, visualization --> 
 <!-- Samuel Homberg, 01.NOV.2024 -->
 
-# Which Ticket to the Climbing Hall / Boulder Gym should I buy? 
+# Which Ticket to the Boulder Gym should I buy? 
 
 Code available [here](https://gist.github.com/SamuelHomberg/782cb1f6f3472e18dcafc4dd1e9a7723). Text on the images is in German.
 
