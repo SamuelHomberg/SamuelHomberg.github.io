@@ -1,4 +1,4 @@
-<!-- cheminformatics, computationsl drug design, machine learning, programming, blog, blog posts, samuel homberg, academia, research, Münster --> 
+<!-- cheminformatics, computational drug design, machine learning, programming, blog, blog posts, samuel homberg, academia, research, Münster --> 
 <!-- Samuel Homberg, 21.JUL.2023 -->
 
 # Blogpost template
